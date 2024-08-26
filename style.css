@@ -33,7 +33,7 @@ h1 {
   font-style: italic;
   font-weight: 700; /* Pour rendre le texte plus audacieux */
   font-size: 3rem; /* Ajustez la taille selon vos préférences */
-  color: #3E3E3E; /* Une couleur subtile, ajustable selon vos goûts */
+  color: white; /* Une couleur subtile, ajustable selon vos goûts */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Effet d'ombre légère pour plus de profondeur */
 }
 
