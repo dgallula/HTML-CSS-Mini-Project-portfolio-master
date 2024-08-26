@@ -37,6 +37,17 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Effet d'ombre légère pour plus de profondeur */
 }
 
+.icon-image {
+  width: 50px; /* Ajustez la taille selon vos besoins */
+  height: auto; /* Conserver les proportions de l'image */
+  filter: grayscale(100%); /* Applique un effet de gris, ajustable */
+  transition: filter 0.3s ease; /* Effet de transition pour les survols */
+}
+
+.icon-image:hover {
+  filter: grayscale(0%); /* Retire l'effet de gris au survol */
+  transform: scale(1.1); /* Agrandit légèrement l'image au survol */
+}
 
 
 html {
